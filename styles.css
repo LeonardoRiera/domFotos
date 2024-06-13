@@ -28,6 +28,7 @@ body {
     justify-self: flex-start;
     margin-bottom: 50px;
     filter: drop-shadow(5px 5px 8px rgba(19, 19, 19, 0.9)); /* Sombra adaptada a la forma de la imagen */
+    margin-bottom: 60px;
 }
 
 
@@ -41,9 +42,16 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: bisque;
-    background: linear-gradient(to left, rgba(91, 0, 195, 0.453), rgba(255, 21, 185, 0.432), rgba(226, 246, 99, 0.442));
+    background: linear-gradient(to left, rgba(91, 0, 195, 0.453), rgba(255, 21, 185, 0.432), rgba(105, 121, 3, 0.442));
     box-shadow: 5px 5px 8px rgba(54, 0, 54, 0.652);
     cursor: pointer;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent; /* Evita el resaltado en dispositivos táctiles */
+    touch-action: manipulation; /* Mejora la respuesta táctil y evita ciertos gestos predeterminados */
+}
+
+.botonete:hover {
+    background: linear-gradient(to left, rgba(60, 0, 128, 0.453), rgba(220, 4, 155, 0.432), rgba(221, 249, 40, 0.442));
 }
 
 
@@ -147,6 +155,7 @@ body {
     .logo {
         width: 21rem;
         height: auto;
+        margin-bottom: 30px;
     
     }
 

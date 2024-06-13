@@ -1,0 +1,182 @@
+body {
+    background-image: url(./img/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contenedor {
+    height: 90vh;
+    width: 70vw;
+    background-color: rgba(0, 0, 0, 0.429);
+    border-radius: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 28rem;
+    height: auto;
+    justify-self: flex-start;
+    margin-bottom: 50px;
+    filter: drop-shadow(5px 5px 8px rgba(19, 19, 19, 0.9)); /* Sombra adaptada a la forma de la imagen */
+}
+
+
+
+.botonete {
+    width: 30rem;
+    height:3rem;
+    border-radius: 20px;
+    border-style: none;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: bisque;
+    background: linear-gradient(to left, rgba(91, 0, 195, 0.453), rgba(255, 21, 185, 0.432), rgba(226, 246, 99, 0.442));
+    box-shadow: 5px 5px 8px rgba(54, 0, 54, 0.652);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla extragigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (min-width:2221px) {
+    
+    
+}
+
+/* ++++++++++++++++++++++++ media query |  pantalla gigante |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:2220px) {
+    
+    
+}
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra extra lg  |   ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:1400px) {
+    
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla extra lg   |  ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:1200px) {
+    
+    .logo {
+       
+        margin-bottom: 30px;
+    }
+    
+}
+
+
+
+/* ++++++++++++++++++++++++ media query | pantalla lg  | ++++++++++++++++++++++++++++++++++*/
+
+
+@media screen and (max-width:992px) {
+    
+    .botonete {
+        width: 25rem;
+        
+        
+        font-size: 18px;
+        
+    }
+    
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla md   | ++++++++++++++++++++++++++++++++++*/
+
+
+
+@media screen and (max-width:768px) {
+
+    .logo {
+        width: 25rem;
+        height: auto;
+    
+    }
+
+    .botonete {
+        width: 22rem;
+        
+        
+        font-size: 16px;
+        
+    }
+
+}
+
+
+
+
+/* ++++++++++++++++++++++++ media query |  pantalla sm   | ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:576px) {
+
+    .contenedor {
+        height: 90vh;
+        width: 90vw;
+       
+    }
+    .logo {
+        width: 21rem;
+        height: auto;
+    
+    }
+
+    .botonete {
+        width: 18rem;
+        
+        
+        font-size: 16px;
+        
+    }
+
+}
+
+
+/* ++++++++++++++++++++++++ media query  | pantalla xxsm |   ++++++++++++++++++++++++++++++++++*/
+
+@media screen and (max-width:320px) {
+
+    .logo {
+        width: 18rem;
+        height: auto;
+    
+    }
+
+    .botonete {
+        width: 15rem;
+        
+        
+        font-size: 15px;
+        
+    }
+   
+}
